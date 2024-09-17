@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retro-assigment-6</title>
+  <link rel="stylesheet" href="style/style.css">
+  <!-- daisyUI/tailwindcss -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/e320c513a4.js" crossorigin="anonymous"></script>
+  <!-- custom style -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    .font {
+      font-family: "Poppins", system-ui;
+    }
+  </style>
+</head>
+
+
+<body class="font">
+  <!-- navbar -->
+  <nav class="container mx-auto px-2 mt-3">
+    <div class="rounded-2xl container mx-auto px-2  py-5 bg-gray-100">
+      <div class="flex justify-between">
+        <div class="text-white flex justify-center items-center space-x-24">
+          <div class="flex items-center gap-5">
+            <div>
+              <img src="images/logo.png" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- social links -->
+        <div class="space-x-6 hidden lg:flex">
+          <div class="flex text-lg font-semibold gap-14">
+            <div class="bg-gray-50 p-5 rounded-full" title="Home">
+              <i class="fa-solid fa-house border-b-2 border-green-600 text-xl"></i>
+            </div>
+            <div title="Toltip" class="bg-gray-50 p-5 rounded-full">
+              <i class="fa-solid fa-pencil border-b-2 border-green-600 text-xl"></i>
+            </div>
+            <div title="user" class="bg-gray-50 p-5 rounded-full">
+              <i class="fa-solid fa-user-plus border-b-2 border-green-600 text-xl"></i>
+            </div>
+            <div title="flag" class="bg-gray-50 p-5 rounded-full">
+              <i class="fa-regular fa-flag border-b-2 border-green-600 text-xl"></i>
+            </div>
+          </div>
+          <button class="bg-blue-500 px-6 py-3 rounded-3xl text-white text-lg font-bold mx-2">SignIn</button>
+        </div>
+
+
+        <div class="flex items-center gap-5items-center lg:hidden">
+          <i class="fa-solid fa-bars  text-2xl w-8 h-8" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- banner -->
+  <header
+    class="grid lg:grid-cols-2 grid-cols-1 justify-between items-center container mx-auto mt-3 rounded-2xl h-[450px] "
+    style="background-image: url('images/bgbanner.png'); background-color: #12132D; background-repeat: no-repeat; background-position: center;">
+
+    <div class="flex-1 -tracking-tight h-[250px] mx-5 my-5 rounded-xl lg:space-y-6 space-y-3 lg:ml-28">
+      <h4 class="lg:ml-10 ml-2 lg:text-3xl text-2xl font-extrabold text-white">Welcome to the <br><span
+          class="text-[#797DFC]"> ReTro</span> Forum</h4>
+
+      <p class="lg:ml-10 ml-2 text-white">Share your favorite opinion and win and wp forum coffee mug!</p>
+      <div class="lg:ml-10 ml-1 bg-white lg:w-[69%] w-[100%] flex justify-between p-1 rounded-2xl">
+        <input type="text" class="p-1 rounded-2xl border-none" placeholder="Search here anything">
+        <button class="bg-blue-400 rounded-2xl lg:p-3 p-1 text-white">Search</button>
+      </div>
+    </div>
+
+    <div class="flex-1 lg:w-[40%] w-[90%] -translate-y-12 lg:translate-y-1 lg:h-[250px] mx-5 rounded-xl">
+      <!-- right part -->
+      <div class="bg-white lg:w-[100%] rounded-2xl h-[190px] p-4 pb-3 space-y-2">
+        <div class="flex justify-between items-center text-black m-2">
+          <h1>Registerd Users</h1>
+          <p>01</p>
+        </div>
+        <div class="flex justify-between items-center text-black m-2">
+          <h1>Registerd Users</h1>
+          <p>01</p>
+        </div>
+        <div class="flex justify-between items-center text-black m-2">
+          <h1>Registerd Users</h1>
+          <p>01</p>
+        </div>
+        <div class="flex justify-between items-center text-black m-2">
+          <h1>Registerd Users</h1>
+          <p>01</p>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </header>
+  <main>
+    <section class="flex-col justify-center items-center lg:m-12 m-3 ">
+      <h1 class="lg:text-3xl text-xl font-bold flex justify-center items-center">Let’s Discuss</h1>
+      <p class="text-xl flex text-center lg:w-[60%] mx-auto mb-5">Yes, you can run unit tests and view the results
+        directly
+        within the app. The integrated testing features allow
+        for a streamlined </p>
+    </section>
+
+    <!-- card container -->
+    <section class="container mx-auto gap-3
+     flex-auto lg:flex justify-between columrever ">
+
+      <div class="lg:w-[70%] w-[100%] lg:h-[300px]
+       bg-gray-200 rounded-2xl lg:pb-44 " id="card-container">
+
+      </div>
+
+      <div class="lg:w-[30%] w-[100%] h-[300px] rounded-2xl bg-slate-200 mt-2 mx-auto">
+
+        <div class="flex justify-between items-center pt-9 px-6">
+          <h2 class="text-2xl font-bold">Title</h2>
+          <div class="flex gap-4 justify-center items-center">
+            <i class="fa-solid fa-check-double text-[green]"></i>
+            <h3>Mark as read (4)</h3>
+          </div>
+        </div>
+        <div class="flex justify-between items-center pt-9 px-6">
+
+        </div>
+      </div>
+    </section>
+    <!-- letest section -->
+    <section class="lg:mt-[1480px] mt-10">
+      <div class="mb-8 rounded-2xl hero
+       bg-[#12132D] container mx-auto" >
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <img src="images/joinforum.png" class="lg:max-w-sm rounded-lg shadow-2xl" />
+          <div class="text-center">
+            <h1 class="lg:text-5xl text-2xl font-bold text-white">Join Our Forum</h1>
+            <p class="lg:py-6 lg:pr-20 w-[100%] text-white">
+              Share your favorite opinion and win and wp forum coffee mug! Yes, you can
+              run unit tests and view the results directly within the app
+            </p>
+            <button class="btn btn-primary rounded-3xl bg-[#797DFC] ">Registered Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- api card 3 -->
+    <section id="third-card-container" class="grid lg:grid-cols-3 grid-cols-1 justify-between items-center container mx-auto">
+    </section>
+
+    <!-- center text -->
+
+    <!-- <section class="flex-col justify-center items-center m-12">
+      <h1 class="lg:text-3xl text-xl font-bold flex justify-center items-center">Latest Posts</h1>
+      <p class="text-xl flex text-center lg:w-[60%] w-[100%] mx-auto mb-5">Yes, you can run unit tests and view the
+        results directly
+        within the app. The
+        integrated testing features allow for a streamlined .</p>
+    </section> -->
+
+    <!-- footer -->
+    <footer class="footer footer-center bg-slate-100 text-primary-content lg:p-16">
+      <div>
+        <h2 class="text-3xl font-bold text-black">ReTro</h2>
+        <p class="text-xl lg:w-[60%] w-[100%] text-black">Contrary to popular belief, Lorem Ipsum is not simply random
+          text. It has roots in a
+          piece of classical Latin literature from 45 BC</p>
+      </div>
+      <nav>
+        <div class="grid grid-flow-col gap-4 text-black">
+          <a>
+            <i class="fa-brands fa-facebook text-4xl font-bold text-black"></i>
+          </a>
+          <a>
+            <i class="fa-brands fa-instagram text-4xl font-bold text-black"></i>
+          </a>
+          <a>
+            <i class="fa-brands fa-github text-4xl font-bold text-black"></i>
+          </a>
+          <a>
+            <i class="fa-brands fa-twitter text-4xl font-bold text-black"></i>
+          </a>
+        </div>
+      </nav>
+      <hr class=" border-2 w-[100%] bg-slate-900">
+      <div class="text-black">2017, All Rights Reserved.</div>
+    </footer>
+  </main>
+
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
+
+<!-- <div class="w-[50px] h-[50px] bg-white rounded-2xl">
+<img src="" alt="">
+</div> -->
+
+
+
+<!-- <div class="lg:flex flex-auto p-9 gap-3">
+  <div class="flex-auto lg:w-[13%] w-[60%]
+lg:h-[100px] lg:bg-red-600 z-10 rounded-2xl relative">
+    <div class="lg:mt-7 mb-20 flex mx-auto justify-center text-center">
+      <img src="images/logo.png" alt="">
+    </div>
+
+  </div>
+  <div class="flex-col mx-auto">
+    <div class="space-y-3 mb-3">
+      <div class="flex gap-6">
+        <h1># Music</h1>
+        <p>Author : Awlad Hossain</p>
+      </div>
+      <h2 class="lg:text-xl font-bold w-[100%] px-1">10 Kids Unaware of Their Halloween Costume</h2>
+      <p class="lg:w-[80%] w-[100%] lg:pr-3">t’s one thing to subject yourself to ha Halloween costume mishap
+        because,
+        hey that’s your prerogative</p>
+    </div>
+    <hr> -->
+<!-- icons div -->
+<!-- <div class="flex justify-between mt-6 gap-3">
+      <div class="flex lg:w-[90%] w-[80%] justify-start lg:gap-36 gap-3 items-center">
+        <div class="flex lg:gap-7 gap-4 items-center">
+          <i class="fa-regular fa-envelope lg:text-4xl"></i>
+          <h1 class="lg:text-2xl">560</h1>
+        </div>
+        <div class="flex lg:gap-7 gap-4 items-center">
+          <i class="fa-regular fa-eye lg:text-4xl"></i>
+          <h1 class="lg:text-2xl">1,568</h1>
+        </div>
+        <div class="flex lg:gap-7 gap-4 items-center">
+          <i class="fa-regular fa-clock lg:text-4xl "></i>
+          <h1 class="lg:text-2xl">5min</h1>
+        </div>
+      </div> -->
+
+
+
+<!-- last icon -->
+<!-- <div class="w-[10%] py-2 px-2 bg-green-400 rounded-full flex justify-center items-center mx-auto">
+        <i class="fa-regular fa-envelope-open"></i>
+      </div>
+    </div>
+
+  </div>
+</div> -->
